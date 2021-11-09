@@ -1,10 +1,19 @@
 {
-    "dependencies": {
-        "express": "^4.17.1",
-        "socket.io": ""
-    },
-    "scripts": {
-        "start": "node index.js",
-        "test": "node index.js"
-      }
+  "name": "applelivesocket",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
 }
